@@ -1,0 +1,29 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Orbitron", sans-serif;
+}
+
+:root {
+  --bg-blue: rgba(87, 184, 255, 1);
+  --bg-black: rgba(20, 24, 32, 1);
+  --bg-yellow: rgba(253, 208, 74, 1);
+  --bg-white: rgba(255, 255, 255, 1);
+  --bg-grey: rgba(153, 153, 153, 1);
+}
+
+.container {
+  /* 1440 - 2 * 60 + 2 * 20 = 1260 */
+  max-width: 1260px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+ul {
+  list-style-type: none;
+}
+a {
+  text-decoration: none;
+}

@@ -1,0 +1,30 @@
+.dark header {
+  background-image: linear-gradient(
+    to right,
+    var(--bg-blue) 50%,
+    var(--bg-black) 50%
+  );
+}
+.dark .nav-moon__img {
+  width: 48px;
+  height: 48px;
+}
+.dark .game-bg {
+  background-image: linear-gradient(
+    to right,
+    var(--bg-blue) 50%,
+    var(--bg-black) 50%
+  );
+}
+.dark .game-bg__fie--h6 {
+  color: var(--bg-black);
+}
+.dark .game-bg__p {
+  color: var(--bg-yellow);
+}
+.dark .game-bg__link--1 {
+  background-color: var(--bg-black);
+}
+.dark .navbar-shrink {
+  background: rgba(0, 17, 255, 0.441);
+}
